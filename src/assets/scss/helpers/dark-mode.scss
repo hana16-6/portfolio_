@@ -1,0 +1,58 @@
+body.dark {
+  --frist-color-second: hsl(var(--hue-color), 30%, 8%);
+  --title-color: hsl(var(--hue-color), 8%, 95%);
+  --text-color: hsl(var(--hue-color), 8%, 75%);
+  --input-color: hsl(var(--hue-color), 29%, 16%);
+  --body-color: hsl(var(--hue-color), 28%, 12%);
+  --container-color: hsl(var(--hue-color), 29%, 16%);
+  --hue-color: 250;
+  --bg-color: hsl(var(--hue-color), 28%, 12%);
+
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  .text-muted,
+  .text-dark {
+    color: var(--text-color) !important;
+  }
+}
+.dark-mode-container {
+  svg {
+    width: 30px;
+    height: 30px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    stroke-width: 2px;
+    cursor: pointer;
+
+    &.sun {
+      stroke: #f0c644;
+
+      .lines {
+        transform-origin: 12px 12px;
+        -webkit-animation: dark-mode-sun 20s linear infinite;
+        animation: dark-mode-sun 20s linear infinite;
+      }
+    }
+    &.moon {
+      stroke: #2c3144;
+
+      .star-1,
+      .star-2 {
+        stroke: #f0c644;
+      }
+      .star-1 {
+        transform-origin: 15px 3px;
+        -webkit-animation: dark-mode-star-1 5s linear infinite;
+        animation: dark-mode-star-1 5s linear infinite;
+      }
+
+      .star-2 {
+        transform-origin: 21px 9px;
+        -webkit-animation: dark-mode-star-2 5s linear infinite;
+        animation: dark-mode-star-2 5s linear infinite;
+      }
+    }
+  }
+}

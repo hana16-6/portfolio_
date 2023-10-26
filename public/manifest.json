@@ -1,0 +1,37 @@
+{
+  "short_name": "portfolio",
+  "name": "My Portfolio",
+  "dir": "ltl",
+  "lang": "en",
+  "scope": "/",
+  "description": "Welcome to my portfolio! I Hana Mohamed a frontend developer with more than 2 years of experience building responsive and user-friendly websites and web applications. My experience include HTML ,CSS ,JavaScript, React, WordPress and more frontend technologies.I'm seeking an opportunity where my dedication, creativity, and problem-solving abilities can flourish, enabling both personal and professional growth. I am excited to take on new challenges and make new projects",
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "./favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#12b886",
+  "background_color": "#ffffff",
+  "prefer_related_applications": true,
+  "categories": ["portfolio", "frontend", "Projects", "Skills"]
+}

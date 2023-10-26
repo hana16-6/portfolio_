@@ -3,3 +3,67 @@
     color: var(--frist-color);
   }
 }
+.my-projects {
+  .filter-buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .bg-underline {
+      &.mixitup-control-active {
+        background-size: 100% 100%;
+      }
+    }
+  }
+
+  .single-item {
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+
+    hr {
+      border-color: #ddd;
+      margin: 0.3rem 0;
+    }
+
+    .project-info {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+
+      @media (min-width: 768px) {
+        min-height: 62px;
+        max-height: 78px;
+      }
+    }
+
+    &:hover {
+      .img img {
+        transform: scale(1.2) rotate(-10deg);
+      }
+    }
+
+    .img {
+      position: relative;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 280px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        transition: 0.5s;
+
+        @media (max-width: 768px) {
+          & {
+            height: 350px;
+          }
+        }
+      }
+    }
+  }
+}

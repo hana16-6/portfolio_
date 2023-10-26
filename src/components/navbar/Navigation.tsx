@@ -1,4 +1,3 @@
-import { BiHome } from "react-icons/bi";
 import { NAVIGATION } from "../../constants/navbar";
 import CONFIG from "../../constants/config";
 import { AiOutlineCloudDownload } from "react-icons/ai";
@@ -9,7 +8,7 @@ function Navigation() {
       {NAVIGATION.map((link) => (
         <li className="nav_item" key={link.href}>
           <a href={`#${link.href}`} className="nav_link">
-            <BiHome className="nav_icon" /> {link.label}
+            <link.icon className="nav_icon" /> {link.label}
           </a>
         </li>
       ))}

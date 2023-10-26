@@ -1,4 +1,4 @@
-import aboutme from "../assets/images/backgrounds/aboutme.jpg";
+import aboutme from "../assets/images/backgrounds/aboutme.webp";
 import { FEATURES } from "../constants/about";
 import { BsCheck2All, BsFillFastForwardFill } from "react-icons/bs";
 import { HiUsers } from "react-icons/hi";

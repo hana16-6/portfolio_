@@ -2,7 +2,7 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { SiMaildotru } from "react-icons/si";
-import avatar from "../assets/images/backgrounds/avatar.jpg";
+import avatar from "../assets/images/backgrounds/avatar.webp";
 import CONFIG from "../constants/config";
 
 function Header() {
@@ -36,7 +36,7 @@ function Header() {
               <SiMaildotru />
             </a>
           </div>
-          <div className="home_img">
+          <div className="home_img" data-aos="fade-down">
             <img
               className="img-fluid border-transform"
               src={avatar}
@@ -46,7 +46,7 @@ function Header() {
               loading="lazy"
             />
           </div>
-          <div className="home_data">
+          <div className="home_data" data-aos="fade-up">
             <h1 className="home_title">
               Hi,I'm <span className="hovered bg-underline">Hana</span>
             </h1>

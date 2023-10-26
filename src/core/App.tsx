@@ -9,6 +9,9 @@ import BackToTop from "../components/BackToTop";
 import AboutMe from "../components/AboutMe";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Skills from "../components/Skills";
+import Footer from "../layout/Footer";
+import Projects from "../components/Projects";
 
 function App() {
   useEffect(() => {
@@ -45,6 +48,9 @@ function App() {
           <BackToTop />
           <Header />
           <AboutMe />
+          <Skills />
+          <Projects />
+          <Footer />
         </ThemeProvider>
       </div>
     </>

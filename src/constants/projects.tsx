@@ -1,17 +1,17 @@
-import astro from "../assets/images/projects/astro.png";
-import scandiweb from "../assets/images/projects/scandiweb.png";
-import myReads from "../assets/images/projects/myreads.png";
-import portfolio from "../assets/images/projects/portfolio.png";
-import banksystem from "../assets/images/projects/bank.png";
-import zedPage from "../assets/images/projects/inovola vue.js.png";
-import ECommerce from "../assets/images/projects/Commerce.png";
-import gallery from "../assets/images/projects/Gallery.png";
-import todoList from "../assets/images/projects/todojs.png";
-import cosmo from "../assets/images/projects/Cosmo-Junkie.png";
-import colorlib from "../assets/images/projects/iti-template.png";
-import webe from "../assets/images/projects/webe.png";
-import moGo from "../assets/images/projects/MoGo.png";
-import loopstudios from "../assets/images/projects/loopstudios.png";
+import astro from "../assets/images/projects/astro.webp";
+import scandiweb from "../assets/images/projects/scandiweb.webp";
+import myReads from "../assets/images/projects/myreads.webp";
+import portfolio from "../assets/images/projects/portfolio.webp";
+import banksystem from "../assets/images/projects/bank.webp";
+import zedPage from "../assets/images/projects/inovola-vue.js.webp";
+import ECommerce from "../assets/images/projects/Commerce.webp";
+import gallery from "../assets/images/projects/Gallery.webp";
+import todoList from "../assets/images/projects/todojs.webp";
+import cosmo from "../assets/images/projects/Cosmo-Junkie.webp";
+import colorlib from "../assets/images/projects/iti-template.webp";
+import webe from "../assets/images/projects/webe.webp";
+import moGo from "../assets/images/projects/MoGo.webp";
+import loopstudios from "../assets/images/projects/loopstudios.webp";
 const FILTERS: FilterConstant = {
   react: {
     filter: "react-project",

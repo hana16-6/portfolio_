@@ -13,7 +13,8 @@ type MixItUpProjectFilter =
   | "react-project"
   | "nodejs-project"
   | "bootstrap-project"
-  | "freelance-project";
+  | "javaScript"
+  | "other";
 
 interface SingleProject {
   title: string;

@@ -50,49 +50,51 @@ function Navbar() {
     }
   };
   return (
-    <header
-      className={`header ${navbarScroll ? "scroll-header" : ""}`}
-      id="header"
-    >
-      <nav className="nav container">
-        <a href="#" className="nav_logo">
-          <img
-            src={theme === "light" ? whiteFavicon : favicon}
-            alt="favicon"
-            height="70px"
-            width="170px"
-            loading="lazy"
-          />
-        </a>
-        <div
-          ref={dropdownWrapperRef}
-          className={`nav_menu ${showNav ? "show-menu" : ""}`}
-          id="js-navbar-tabs-id"
-        >
-          <Navigation />
+    <div className="container">
+      <header
+        className={`header ${navbarScroll ? "scroll-header" : ""}`}
+        id="header"
+      >
+        <nav className="nav">
+          <a href="#" className="nav_logo">
+            <img
+              src={theme === "light" ? whiteFavicon : favicon}
+              alt="favicon"
+              height="70px"
+              width="170px"
+              loading="lazy"
+            />
+          </a>
           <div
-            className="nav_close"
-            onClick={() => {
-              setShowNav(!showNav);
-            }}
+            ref={dropdownWrapperRef}
+            className={`nav_menu ${showNav ? "show-menu" : ""}`}
+            id="js-navbar-tabs-id"
           >
-            <AiOutlineClose />
+            <Navigation />
+            <div
+              className="nav_close"
+              onClick={() => {
+                setShowNav(!showNav);
+              }}
+            >
+              <AiOutlineClose />
+            </div>
           </div>
-        </div>
-        <div className="nav_btns">
-          <DarkModeBtn />
-          <button
-            className="nav_toggle"
-            onClick={() => {
-              setShowNav(!showNav);
-            }}
-            ref={dropdownToggleRef}
-          >
-            <AiOutlineAppstore size={30} />
-          </button>
-        </div>
-      </nav>
-    </header>
+          <div className="nav_btns">
+            <DarkModeBtn />
+            <button
+              className="nav_toggle"
+              onClick={() => {
+                setShowNav(!showNav);
+              }}
+              ref={dropdownToggleRef}
+            >
+              <AiOutlineAppstore size={30} />
+            </button>
+          </div>
+        </nav>
+      </header>
+    </div>
   );
 }
 

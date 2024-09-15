@@ -58,6 +58,7 @@
 .nav_btns {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 * {
   box-sizing: border-box;
@@ -114,11 +115,6 @@ button {
   text-align: center;
 }
 /* --------------------------------- layout --------------------------------- */
-.container {
-  max-width: 982px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
-}
 .grid {
   display: grid;
   gap: 1.5rem;
@@ -323,7 +319,6 @@ button {
 }
 /* ================================== about ================================= */
 .about_img {
-  width: 200px;
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
@@ -421,7 +416,7 @@ button {
     justify-self: center;
   }
   .about_container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media screen and (min-width: 766px) {
@@ -478,9 +473,6 @@ button {
   .about_container {
     column-gap: 2rem;
   }
-  .about_img {
-    width: 350px;
-  }
   .about_description {
     text-align: initial;
   }
@@ -504,5 +496,8 @@ button {
   }
   .home_social {
     transform: translateX(-6rem);
+  }
+  .about_container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

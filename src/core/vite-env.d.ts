@@ -20,8 +20,10 @@ interface SingleProject {
   title: string;
   info: string;
   img: string;
+  companyName?: string;
   filter: MixItUpProjectFilter[];
   urls: {
+    companyWebsite?: string;
     github?: string;
     demo: string;
   };

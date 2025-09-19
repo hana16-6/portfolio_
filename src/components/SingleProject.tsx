@@ -52,6 +52,16 @@ function SingleProject(props: { project: SingleProject }) {
           >
             Live Demo
           </a>
+          {props.project.urls.companyWebsite && (
+            <a
+              className="bg-underline hovered"
+              href={props.project.urls.companyWebsite}
+              target="_blank"
+              rel="noopener"
+            >
+              Company website
+            </a>
+          )}
           {props.project.urls.github && (
             <a
               className="bg-underline hovered"

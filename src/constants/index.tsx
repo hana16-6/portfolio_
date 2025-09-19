@@ -28,6 +28,7 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiFirebase,
+  SiWebflow,
 } from "react-icons/si";
 import { TbBrandMantine } from "react-icons/tb";
 import { FaVuejs, FaAngular } from "react-icons/fa";
@@ -248,6 +249,19 @@ const LANGUAGES: Skill[] = [
     variant: "frontend",
     slug: "angular",
   },
+  {
+    title: "Webflow",
+    icon: {
+      name: SiWebflow,
+      props: {
+        fill: "#146EF5",
+        size: "1.5rem",
+      },
+    },
+    variant: "frontend",
+    slug: "webflow",
+  },
+
   {
     title: "Node.Js",
     icon: {

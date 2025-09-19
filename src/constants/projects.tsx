@@ -12,6 +12,10 @@ import colorlib from "../assets/images/projects/iti-template.webp";
 import webe from "../assets/images/projects/webe.webp";
 import moGo from "../assets/images/projects/MoGo.webp";
 import loopstudios from "../assets/images/projects/loopstudios.webp";
+import lifeMakers from "../assets/images/projects/life-makers.webp";
+import megekheir from "../assets/images/projects/megakheir.webp";
+import mongizz from "../assets/images/projects/mongizz.webp";
+import drhassan from "../assets/images/projects/drhassan.webp";
 const FILTERS: FilterConstant = {
   react: {
     filter: "react-project",
@@ -32,6 +36,58 @@ const FILTERS: FilterConstant = {
 };
 const PROJECTS: SingleProject[] = [
   {
+    title: "Life Makers",
+    info: "Life Makers Foundation Egypt (LMF) is a national, non-governmental, non-profit organization established in 2011 and centrally registered under No. 839 for 2018, operating under the Egyptian law for associations and civil institutions.",
+    img: lifeMakers,
+    companyName: "TA telecom",
+    urls: {
+      companyWebsite: "https://www.tatelecom.com/",
+      github: "",
+      demo: "https://lm.tatelecom.com/",
+    },
+    tags: ["react", "redux", "html", "css"],
+    filter: ["react-project"],
+  },
+  {
+    title: "Megakheir",
+    info: "MegaKheir is the link between donors and charitable organizations.It provides a comprehensive marketing platform for trusted institutions and charities in Egypt.",
+    img: megekheir,
+    companyName: "TA telecom",
+    urls: {
+      companyWebsite: "https://www.tatelecom.com/",
+      github: "",
+      demo: "https://www.megakheir.com/",
+    },
+    tags: ["next", "redux", "tailwindcss", "html", "css"],
+    filter: ["react-project"],
+  },
+  {
+    title: "Dr. Hassan Abbas Zaki Foundation",
+    info: "Dr. Hassan Abbas Zaki Association for Development was established in 1966. It is a non-profit civil society organization that seeks to support and develop society. Its founder is Dr. Hassan Abbas, former Minister of Economy and Finance and member of the Islamic Research Complex.",
+    img: drhassan,
+    companyName: "TA telecom",
+    urls: {
+      companyWebsite: "https://www.tatelecom.com/",
+      github: "",
+      demo: "https://www.drhaz.org",
+    },
+    tags: ["webflow", "", "html", "css"],
+    filter: ["other"],
+  },
+  {
+    title: "Mongizz",
+    info: "In 2022, the Mongizz website was launched. To be a leading website builder, committed to providing the latest features and capabilities that enable anyone to create their website easily and as quickly as possible.CEO Ahmed Aly",
+    img: mongizz,
+    companyName: "Logic Designs",
+    urls: {
+      companyWebsite: "https://www.logic-designs.com/",
+      github: "",
+      demo: "https://mongizz.com/",
+    },
+    tags: ["javascript", "bootstrap", "html", "css"],
+    filter: ["javaScript"],
+  },
+  {
     title: "My-reads",
     info: "here you can search for a book an add it to your list you will be have three shelves --currently reading --want to read --read you can toggles between shelves as you like and change book shelf you can also search for a specific book by inter value at the search input when you add specific to a shelf it will be showing the shelf state in both main page and search page if there are books haven't been added to any shelf book it will be display as none at the selection input you can't search for an invalid value but on the other hand you can search by title or author",
     img: myReads,
@@ -39,7 +95,7 @@ const PROJECTS: SingleProject[] = [
       github: "https://my-reads-react-app-beta.vercel.app/",
       demo: "https://github.com/hana16-6/my-reads-react-app",
     },
-    tags: ["react", "css"],
+    tags: ["react", "html", "css"],
     filter: ["react-project"],
   },
   {

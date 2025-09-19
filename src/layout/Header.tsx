@@ -52,11 +52,11 @@ function Header() {
             </h1>
             <h3 className="home_subtitle">Frontend Developer</h3>
             <p className="home_description">
-              I have proven ability to collaborate effectively with team
-              members. I have joined information technology institute and
-              studied computer science at Cairo University for two years. I have
-              passion for both personal growth and software development which
-              I'm ready to apply for coding to develop quality solutions
+              Frontend Developer with 3 years of experience in designing and
+              developing responsive, user-friendly web applications. Skilled in
+              React, Next.js, and modern JavaScript, with a strong passion for
+              continuous learning and expanding into Fullstack Development to
+              deliver impactful digital solutions.
             </p>
             <a
               className="bubbly-btn"

@@ -43,7 +43,7 @@ const PROJECTS: SingleProject[] = [
     urls: {
       companyWebsite: "https://www.tatelecom.com/",
       github: "",
-      demo: "https://lm.tatelecom.com/",
+      demo: "https://lifemakers.org",
     },
     tags: ["react", "redux", "html", "css"],
     filter: ["react-project"],
